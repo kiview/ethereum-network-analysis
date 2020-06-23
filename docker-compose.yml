@@ -1,0 +1,16 @@
+version: '3.7'
+
+services:
+
+  parity:
+    image: parity/parity:v2.7.2-stable
+    restart: always
+    volumes:
+      - "./bloxberg.json:/bloxberg.json"
+      - "./bootnodes.txt:/bootnodes.txt"
+      - "./ipc:/ipc"
+      - "./ethereum-data:/data"
+    ports:
+      - 8546:8546
+    command: --mode active --chain /bloxberg.json --reserved-peers /bootnodes.txt --base-path /data --ipc-path=/ipc/jsonrpc.ipc --ws-interface=all --tracing on --pruning fast
+    user: root 
