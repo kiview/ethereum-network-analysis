@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "8049aa8ebff554e3642f0d0ad7362f4a40cb47eb688adcb001842f897e5325ee"
+            "sha256": "f1b11338f7fb3eae579d927af62b181f65c0c514a01d0b6437eb89602160b042"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -82,7 +82,6 @@
             "hashes": [
                 "sha256:82f5bba81d73a5a6b06f2a3553ff9003d865952fcb32e1df192378dd944d8a5c"
             ],
-            "markers": "implementation_name == 'cpython'",
             "version": "==0.10.1"
         },
         "decorator": {
@@ -616,6 +615,7 @@
                 "sha256:923f299cc5ad920c68f2bc0bc98b75b9f838b93b599941a6b63ddbc2476394c0",
                 "sha256:d7cc528d76e76342423ca640335bd3633420dc1366f258cb31d05e865ef5ca1f"
             ],
+            "markers": "os_name != 'nt'",
             "version": "==0.6.0"
         },
         "pybids": {
@@ -957,6 +957,7 @@
                 "sha256:07c06493f1403c1380b630ae3dcbe5ae62abcf369a93bbc052502279f189ab8c",
                 "sha256:cd140979c2bebd2311dfb14781d8f19bd5a9debb92dcab9f6ef899c987fcf71f"
             ],
+            "index": "pypi",
             "version": "==4.46.1"
         },
         "traitlets": {

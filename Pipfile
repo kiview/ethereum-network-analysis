@@ -12,6 +12,7 @@ pandas = "*"
 web3 = "*"
 ipywidgets = "*"
 tables = "*"
+tqdm = "*"
 
 [dev-packages]
 
