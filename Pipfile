@@ -13,6 +13,7 @@ web3 = "*"
 ipywidgets = "*"
 tables = "*"
 tqdm = "*"
+seaborn = "*"
 
 [dev-packages]
 
